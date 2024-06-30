@@ -1,0 +1,19 @@
+.course-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+  }
+  
+  .course-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .course-nav a.active {
+    border-bottom: 2px solid #4CAF50;
+    color: #4CAF50;
+  }
+  

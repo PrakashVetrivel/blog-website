@@ -1,0 +1,17 @@
+.articles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .article {
+    width: 30%;
+    margin: 1em 0;
+    text-align: center;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+  
